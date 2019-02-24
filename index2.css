@@ -5,99 +5,102 @@
 }
 
 html {
+    font-weight: bold;
     font-family: 'Teko', sans-serif;
+    font-stretch: condensed;
     color: rgb(221, 221, 221);
-    }
+    background-color:  #0A0A0A;
+ }
 
 .container {
+        font-size: 20px;
         display: flex;
-        width: 1125px;
-        height: 70px;
-        background-color: rgb(118, 136, 207);
+        width: 100%;
+        height: 80px;
+        background-color: #607C9A;
 }
 
 .container2 {
-        display: flex;
-        width: 1125px;
-        height: 118px;
-        background-color: rgb(118, 136, 207);
+    display: flex;
+    width: 100%;
+    background-color: #607C9A;
 }
 
 .cell1 {
-    width: 275px;
+    width: 283px;
     padding-left: 10px;
     padding-top: 12px;
-    border: 3px solid #8A95C1;
+    border: 3px outset #6c88a9;
 }
 
 .cell2 {
-    width: 275px;
+    width: 285px;
     padding-left: 10px;
     padding-top: 12px;
-    border: 3px solid #8A95C1;
+    border: 3px outset #6c88a9;
+}
+.cell2m {
+    color: #aaeaf1;
+}
+
+.cell2line {
+    width: 16px;
+    height: 14px;
+    padding-left: 150px;
 }
 
 .cell3 {
-    width: 275px;
+    width: 285px;
     padding-left: 10px;
     padding-top: 12px;
-    border: 3px solid #8A95C1;
+    border: 3px outset #6c88a9;
 }
 
 .cell4 {
-    width: 275px;
+    width: 285px;
     padding-left: 10px;
     padding-top: 12px;
-    border: 3px solid #8A95C1;
+    border: 3px outset #6c88a9;
 }
 
 .cell5 {
-    width: 275px;
+    width: 285px;
     padding-left: 10px;
     padding-top: 12px;
-    border: 3px solid #8A95C1;
+    border: 3px outset #6c88a9;
 }
 
 img {
-    width: 1125px;
+    width: 100%;
 }
 
 .date-and-time {
-    width: 408px;
-    height: 115px;
-    border: 3px solid #8A95C1;
+    width: 549px;
+    height: 141px;
+    border: 3px outset #6c88a9;
 }
 
 .date {
-    padding-top: 15px;
     padding-left: 15px;
 }
 
 .time {
-    font-size: 70px;
+    font-size: 80px;
+    padding-left: 15px;
 }
 
-.vectors {
+.vectors .image2 {
     display: flex;
-    align-items: column;
-    width: 270px;
-    height: 115px;
-    border: 3px solid #8A95C1;
-}
-
-.vertical {
-    padding-left: 15px;
-    padding-top: 20px;
-}
-
-.vector-n {
-    padding-left: 15px;
+    width: 303px;
+    height: 141px;
+    border: 3px outset #6c88a9;
 }
 
 .burn-cell {
-    border: 3px solid #8A95C1;
-    width: 250px;
-    height: 115px;
+    border: 3px outset #6c88a9;
+    width: 302px;
+    height: 131px
+    padding-top: 10px;
 }
 
 .next-burn {
@@ -106,11 +109,10 @@ img {
 
 .enable {
     padding-left: 50px;
-    padding-top: 15px;
 }
 
 .revers-time {
-    font-size: 35px;
+    font-size: 44px;
     padding-left: 30px;
 }
 
@@ -122,17 +124,46 @@ img {
     padding-left: 50px;
 }
 
-.turget-cell {
-    border: 3px solid #8A95C1;
-    width: 220px;
-    height: 115px;
+.target-cell {
+    display: flex;
+    flex-direction: column;
+    border: 3px outset #6c88a9;
+    width: 302px;
+    height: 131px;
     padding-left: 30px;
+    padding-top: 10px;
 }
 
 .speed {
-    font-size: 35px;
+    font-size: 44px;
+}
+
+.target {
+    padding-top: 13px;
 }
 
 .target .speed .truster {
     line-height: 5px;
+}
+
+.wide-row {
+    width: 100%;
+    border: 3px outset #6c88a9;
+    background-color:  #607C9A;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.zero {
+    font-size: 70px;
+}
+
+.alarms {
+    font-size: 50px;
+    padding-left: 24px;
+}
+
+.nominal {
+    color: #aaeaf1;
+    font-size: 60px;
+    padding-left: 400px;
 }
